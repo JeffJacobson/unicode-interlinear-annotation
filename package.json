@@ -2,9 +2,12 @@
   "name": "unicode-interlinear-annotation",
   "version": "0.0.1",
   "description": "Test of Unicode Interlinear Annotation characters",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
+    "prepare": "tsc",
     "watch": "tsc -w",
+    "clean": "git clean -dxf -e node_modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
