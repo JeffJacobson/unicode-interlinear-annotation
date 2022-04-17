@@ -1,0 +1,6 @@
+[serve]
+	brotli
+	cors
+	gzip
+	open-browser
+	
