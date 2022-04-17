@@ -1,0 +1,30 @@
+{
+  "name": "unicode-interlinear-annotation",
+  "version": "0.0.1",
+  "description": "Test of Unicode Interlinear Annotation characters",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffJacobson/unicode-interlinear-annotation.git"
+  },
+  "keywords": [
+    "ruby",
+    "furigana"
+  ],
+  "author": "Jeff Jacobson",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/JeffJacobson/unicode-interlinear-annotation/issues"
+  },
+  "homepage": "https://github.com/JeffJacobson/unicode-interlinear-annotation#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "typescript": "^4.6.3"
+  }
+}
